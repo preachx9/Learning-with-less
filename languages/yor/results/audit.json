@@ -1,0 +1,18 @@
+{
+  "original": {
+    "train": 1433,
+    "dev": 206,
+    "test": 411
+  },
+  "retained": {
+    "train": 1433,
+    "dev": 206,
+    "test": 411
+  },
+  "sha256": {
+    "train": "1f00b8d500cc771c1756221d76544c0589ca806bb7c4570c64fcf3be524dae34",
+    "dev": "60bae7b98606a123becd9b5a8e958e350a3439f26e65f540ea5ed35343b03c89",
+    "test": "4645271b425351ea3ae88d763dff46303aa6aaaf7b28caa6c4508f07141c35e9"
+  },
+  "removed": []
+}

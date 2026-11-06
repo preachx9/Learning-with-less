@@ -1,0 +1,65 @@
+{
+  "original": {
+    "train": 2219,
+    "dev": 317,
+    "test": 637
+  },
+  "retained": {
+    "train": 2216,
+    "dev": 316,
+    "test": 633
+  },
+  "sha256": {
+    "train": "86aa74d6cc393e65b28d03c7770a607424e7faef4c9fe1574e7591b70698a868",
+    "dev": "d117ca9ab9c61b2ea0a07b1aab7887597d4c10398eb2b3e02a4f1c87fa62f804",
+    "test": "7e88ffaf6a4744611c41e95df6a28c6eb3c7bb6d4f60a381e2f9d1021ef97c51"
+  },
+  "removed": [
+    {
+      "ref": "train:1216",
+      "matches": "train:505",
+      "reason": "near_duplicate",
+      "jaccard": 0.95
+    },
+    {
+      "ref": "train:1992",
+      "matches": "train:615",
+      "reason": "near_duplicate",
+      "jaccard": 0.8048780487804879
+    },
+    {
+      "ref": "train:2211",
+      "matches": "train:849",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:248",
+      "matches": "train:849",
+      "reason": "near_duplicate",
+      "jaccard": 1.0
+    },
+    {
+      "ref": "test:152",
+      "matches": "dev:269",
+      "reason": "near_duplicate",
+      "jaccard": 1.0
+    },
+    {
+      "ref": "test:214",
+      "matches": "train:442",
+      "reason": "near_duplicate",
+      "jaccard": 0.8145454545454546
+    },
+    {
+      "ref": "test:222",
+      "matches": "train:849",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:231",
+      "matches": "dev:252",
+      "reason": "near_duplicate",
+      "jaccard": 0.9620853080568721
+    }
+  ]
+}

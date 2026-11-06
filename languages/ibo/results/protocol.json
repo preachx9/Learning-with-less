@@ -1,0 +1,38 @@
+{
+  "recorded_utc": "2026-10-19T07:37:01.658180+00:00",
+  "data_revision": "fa3b5fff8a91d187bf0c5900a39c4271d08cf7fe",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "fractions": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "inputs": "NFC/lowercased article bodies only; preserve combining marks; no headlines or URLs",
+  "word_features": "word unigrams and bigrams; Unicode letter/mark/number tokenizer",
+  "character_features": "character 3-5 grams, including spaces",
+  "shared_tfidf": {
+    "min_df": 2,
+    "max_features": 50000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "classifier": {
+    "type": "LogisticRegression",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000
+  },
+  "sampling": "For each seed, permute each training class; take floor(fraction * class size) from each class. Nested matched subsets. Full training set fitted once per approach.",
+  "deduplication": "Remove empty bodies; greedy first-occurrence dedup by normalized exact body, nonempty URL, or >=0.80 Jaccard of word 5-gram sets. Training is priority, then dev, then test. Do not use labels for overlap filtering.",
+  "evaluation": "Official test split after prespecified overlap filtering; no model selection or tuning from test results. Macro-F1 primary; accuracy secondary. Mean and sample SD over five subsets at 25/50%; 100% single deterministic fit.",
+  "scope": "Exploratory comparison on one corpus; no significance or state-of-the-art claim; subset SD is not a test-population confidence interval.",
+  "language_code": "ibo",
+  "language": "Igbo",
+  "study_history": "Extension selected after observing the Yor\u00f9b\u00e1 result. Model settings, sampling and overlap checks unchanged. Separate monolingual models; no pooled multilingual model."
+}

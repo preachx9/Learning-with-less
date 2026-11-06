@@ -1,0 +1,569 @@
+{
+  "original": {
+    "train": 1356,
+    "dev": 194,
+    "test": 390
+  },
+  "retained": {
+    "train": 1295,
+    "dev": 174,
+    "test": 361
+  },
+  "sha256": {
+    "train": "a26239aefe170350816dbd9fd7725cadd97891be398e834a5d9b7b263df8c69d",
+    "dev": "d3d2db2d4f558508c5cfe38e5b27b3a4a532be93919986fb104c8a47ffc68a0a",
+    "test": "448c461a5c230a1f860807344983e785bc6b1e043d64701e1cd23d8da5a829cc"
+  },
+  "removed": [
+    {
+      "ref": "train:140",
+      "matches": "train:133",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:236",
+      "matches": "train:127",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:327",
+      "matches": "train:81",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:405",
+      "matches": "train:338",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:452",
+      "matches": "train:30",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:461",
+      "matches": "train:246",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:513",
+      "matches": "train:346",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:532",
+      "matches": "train:507",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:543",
+      "matches": "train:478",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:569",
+      "matches": "train:371",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:578",
+      "matches": "train:458",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:615",
+      "matches": "train:106",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:647",
+      "matches": "train:577",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:683",
+      "matches": "train:247",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:688",
+      "matches": "train:171",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:702",
+      "matches": "train:234",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:761",
+      "matches": "train:61",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:790",
+      "matches": "train:691",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:798",
+      "matches": "train:268",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:829",
+      "matches": "train:192",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:830",
+      "matches": "train:349",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:839",
+      "matches": "train:124",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:856",
+      "matches": "train:597",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:861",
+      "matches": "train:6",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:863",
+      "matches": "train:802",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:904",
+      "matches": "train:78",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:910",
+      "matches": "train:22",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:913",
+      "matches": "train:884",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:940",
+      "matches": "train:82",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:972",
+      "matches": "train:164",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:974",
+      "matches": "train:459",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:982",
+      "matches": "train:573",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:999",
+      "matches": "train:600",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1014",
+      "matches": "train:864",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1066",
+      "matches": "train:1050",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1067",
+      "matches": "train:775",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1074",
+      "matches": "train:275",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1080",
+      "matches": "train:987",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1084",
+      "matches": "train:1047",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1090",
+      "matches": "train:792",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1105",
+      "matches": "train:319",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1128",
+      "matches": "train:909",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1145",
+      "matches": "train:364",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1154",
+      "matches": "train:334",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1161",
+      "matches": "train:960",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1162",
+      "matches": "train:576",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1189",
+      "matches": "train:740",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1199",
+      "matches": "train:1057",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1200",
+      "matches": "train:947",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1209",
+      "matches": "train:449",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1216",
+      "matches": "train:988",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1232",
+      "matches": "train:850",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1239",
+      "matches": "train:845",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1240",
+      "matches": "train:33",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1244",
+      "matches": "train:554",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1278",
+      "matches": "train:1237",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1284",
+      "matches": "train:950",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1288",
+      "matches": "train:1264",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1292",
+      "matches": "train:742",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1318",
+      "matches": "train:189",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1327",
+      "matches": "train:1211",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:3",
+      "matches": "train:316",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:4",
+      "matches": "train:1086",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:16",
+      "matches": "train:376",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:22",
+      "matches": "train:352",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:27",
+      "matches": "train:1308",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:66",
+      "matches": "train:1325",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:70",
+      "matches": "train:290",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:74",
+      "matches": "train:204",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:101",
+      "matches": "train:1308",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:118",
+      "matches": "train:1320",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:123",
+      "matches": "train:437",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:143",
+      "matches": "train:1168",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:144",
+      "matches": "train:538",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:166",
+      "matches": "train:732",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:178",
+      "matches": "train:220",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:183",
+      "matches": "train:430",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:184",
+      "matches": "train:254",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:188",
+      "matches": "train:339",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:189",
+      "matches": "train:109",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "dev:191",
+      "matches": "train:929",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:96",
+      "matches": "dev:120",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:101",
+      "matches": "train:1273",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:133",
+      "matches": "train:361",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:135",
+      "matches": "train:519",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:138",
+      "matches": "train:177",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:144",
+      "matches": "train:343",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:148",
+      "matches": "train:665",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:151",
+      "matches": "train:417",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:154",
+      "matches": "test:146",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:158",
+      "matches": "train:1065",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:168",
+      "matches": "train:1003",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:170",
+      "matches": "train:42",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:171",
+      "matches": "train:1156",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:175",
+      "matches": "dev:181",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:181",
+      "matches": "train:858",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:183",
+      "matches": "test:165",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:187",
+      "matches": "train:891",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:192",
+      "matches": "train:1303",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:193",
+      "matches": "test:189",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:196",
+      "matches": "train:778",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:197",
+      "matches": "train:871",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:203",
+      "matches": "dev:43",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:204",
+      "matches": "train:1210",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:207",
+      "matches": "train:305",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:213",
+      "matches": "train:454",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:214",
+      "matches": "train:989",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:216",
+      "matches": "train:482",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:253",
+      "matches": "train:938",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:360",
+      "matches": "train:960",
+      "reason": "exact_text"
+    }
+  ]
+}

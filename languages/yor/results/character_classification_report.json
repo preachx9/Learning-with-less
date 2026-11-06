@@ -1,0 +1,45 @@
+{
+  "entertainment": {
+    "precision": 0.7704918032786885,
+    "recall": 0.94,
+    "f1-score": 0.8468468468468469,
+    "support": 100.0
+  },
+  "health": {
+    "precision": 0.88,
+    "recall": 0.825,
+    "f1-score": 0.8516129032258064,
+    "support": 80.0
+  },
+  "politics": {
+    "precision": 0.9320388349514563,
+    "recall": 0.96,
+    "f1-score": 0.9458128078817734,
+    "support": 100.0
+  },
+  "religion": {
+    "precision": 0.9090909090909091,
+    "recall": 0.78125,
+    "f1-score": 0.8403361344537815,
+    "support": 64.0
+  },
+  "sports": {
+    "precision": 1.0,
+    "recall": 0.835820895522388,
+    "f1-score": 0.9105691056910569,
+    "support": 67.0
+  },
+  "accuracy": 0.8807785888077859,
+  "macro avg": {
+    "precision": 0.8983243094642109,
+    "recall": 0.8684141791044775,
+    "f1-score": 0.879035559619853,
+    "support": 411.0
+  },
+  "weighted avg": {
+    "precision": 0.8901092019582304,
+    "recall": 0.8807785888077859,
+    "f1-score": 0.8812278355651323,
+    "support": 411.0
+  }
+}

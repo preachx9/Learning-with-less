@@ -1,0 +1,23 @@
+{
+  "train": {
+    "entertainment": 350,
+    "health": 278,
+    "politics": 350,
+    "religion": 221,
+    "sports": 234
+  },
+  "dev": {
+    "entertainment": 50,
+    "health": 40,
+    "politics": 50,
+    "religion": 32,
+    "sports": 34
+  },
+  "test": {
+    "entertainment": 100,
+    "health": 80,
+    "politics": 100,
+    "religion": 64,
+    "sports": 67
+  }
+}

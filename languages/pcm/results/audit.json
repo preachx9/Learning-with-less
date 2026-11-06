@@ -1,0 +1,54 @@
+{
+  "original": {
+    "train": 1060,
+    "dev": 152,
+    "test": 305
+  },
+  "retained": {
+    "train": 1058,
+    "dev": 152,
+    "test": 300
+  },
+  "sha256": {
+    "train": "1aa011e017994435f8f9da9f80050c220379ac3985e011230ad0721c8bd61846",
+    "dev": "1735622f844efb837c2233526921be3ecf4f666cd9eacaa8add560de4f477037",
+    "test": "e0b90b84957bef7207400e89a407c3630c5e08c3cac605660401accdcd1ea92b"
+  },
+  "removed": [
+    {
+      "ref": "train:757",
+      "matches": "train:34",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "train:1030",
+      "matches": "train:427",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:5",
+      "matches": "train:342",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:128",
+      "matches": "train:278",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:158",
+      "matches": "train:387",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:227",
+      "matches": "train:691",
+      "reason": "exact_text"
+    },
+    {
+      "ref": "test:248",
+      "matches": "train:532",
+      "reason": "exact_text"
+    }
+  ]
+}
